@@ -1,14 +1,11 @@
 머신러닝 라이브러리 : numpy, pandas, scikit-learn, matplotlib, scipy
 pip install imageio
 
-python 버전확인 (우리는 3.9깔려있는데 원래는 3.11, 3.12 정도는 깔려있어야)
+python 버전확인
 
 설치 : pip install numpy pandas scikit-learn matplotlib
 
 IDE : VScode
-
-실습게시판 다운로드 -> 압축풀어서 C드라이브에 폴더하나만들어서 넣기
-(폴더 들어가지말고 C밑에 바로)
 
 VScode열때 반드시 루트폴더로 열어야함
 jupyter 5개, python 2개 깔려있는지
@@ -17,3 +14,6 @@ jupyter 5개, python 2개 깔려있는지
 분류 : 내일 삼전 주가 올라? -> y/n (이진분류)
 머신러닝(기계로 학습시킴) : 데이터->모델=학습(비지도-x만있음 or 지도-xy모두있음)->예측(회귀or분류)->검증
 기울기와 절편을 구하는 과정 -> 오차가 가장 작도록 만드는 것
+
+과대적합 : ebs에서만 출제한다 (선형, 이웃에서,,)
+과소적합 : 공부안함
