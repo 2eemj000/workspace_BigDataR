@@ -4,10 +4,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 import mglearn
 from cycler import cycler
+# ! macOS, Linux, Window 다 가능 (한국어폰트 사용할 때) !
+import koreanize_matplotlib
 
 set_matplotlib_formats('pdf', 'png')
 plt.rcParams['savefig.dpi'] = 300
 plt.rcParams['figure.dpi'] = 100
+# 이렇게 쓸 때는  macOS, Linux는 한국어폰트 설치 후 rcParams 바꿔줘야함
+# plt.rcParams['font.family'] = 'Malgun Gothic'
+# plt.rcParams['font.size'] = 9
 plt.rcParams['image.cmap'] = "viridis"
 plt.rcParams['image.interpolation'] = "none"
 plt.rcParams['savefig.bbox'] = "tight"

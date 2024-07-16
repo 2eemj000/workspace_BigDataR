@@ -9,6 +9,7 @@ def plot_animal_tree(ax=None):
         ax = plt.gca()
     mygraph = graphviz.Digraph(node_attr={'shape': 'box'},
                                edge_attr={'labeldistance': "10.5"},
+                               fontname="helvetica"
                                format="png")
     mygraph.node("0", "날개가 있나요?")
     mygraph.node("1", "날 수 있나요?")
