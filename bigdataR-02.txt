@@ -1,0 +1,14 @@
+# p1. 트리가 안보여요!
+graphviz(64bit) EXE installer
+설치할때 Add graphviz to the system path for 'all users'
+pip install graphviz (vscode terminal창에서)
+
+# p2. 한글이 안나와요!
+plt -> 한글설정
+윈도우 : 맑은고딕
+리눅스(코랩) : 나눔고딕 폰트 설치
+plt설정 -> graphviz에서 한국어 처리 
+
+# p3. 책에껀 안나오는데요?
+폰트 설정다시
+pip install git+https://github.com/sigmadream/koreanize-matplotlib.git
